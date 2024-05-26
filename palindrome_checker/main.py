@@ -1,12 +1,12 @@
 with open('./input.txt', 'r') as f:
   input = f.read()
 text=input.strip().replace(" ", "").lower().split("\n")
+for i in text:
+    words.append(i)
 words=[]
 alfanumeric="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789".lower()
 characters=[]
 alfanumeric_count=[]
-for i in text:
-    words.append(i)
 
 #palindrome check
 same=0

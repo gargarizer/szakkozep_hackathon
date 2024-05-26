@@ -17,7 +17,7 @@ for word in words:
     if same==len(word):
         palindromes.append(word)
     same=0
-#nem szed ki speciális karaktert
+
 #alfanumerics count
 for i in words:
     for x in range(len(i)):

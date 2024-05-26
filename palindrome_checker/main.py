@@ -1,5 +1,6 @@
-f=open("1_palindrom_input.txt", "r")
-text=(f.read()).strip().replace(" ", "").lower().split("\n")
+with open('./input.txt', 'r') as f:
+  input = f.read()
+text=input.strip().replace(" ", "").lower().split("\n")
 words=[]
 alfanumeric="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789".lower()
 characters=[]
